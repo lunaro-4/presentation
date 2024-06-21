@@ -1,0 +1,37 @@
+/* @theme my-theme */
+:root{
+	--back: #FED8B1;
+	--head: #6F4E37;
+	--sec: #A67B5B;
+	--text: #1A2130;
+	--acc: #ECB176;
+	--tint: #5A72A0;
+
+}
+
+section {
+	font-size: 30px;
+	font: 1rem "Fira Sans", sans-serif;;
+	padding: 40px;
+	background-color: var(--back);
+	color: var(--text);
+	color: #000;
+}
+h1{
+	color: var(--head);
+}
+h2{
+	color: var(--sec);
+}
+
+footer{
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+blockquote{
+	color: var(--tint);
+	text-decoration-line: underline;
+	text-decoration-style: dotted;  
+	font-style: italic;
+}
