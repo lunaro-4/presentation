@@ -1,0 +1,22 @@
+{
+  "name": "presentation",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/lunaro-4/presentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@marp-team/marpit": "3.0.0",
+    "install": "0.13.0",
+    "npm": "10.8.1"
+  }
+}
